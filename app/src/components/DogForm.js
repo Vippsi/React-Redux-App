@@ -29,7 +29,7 @@ const DogForm = props => {
             onChange={handleChanges} />
 
             {props.isFetchingData ? (
-                <div>Fetching Data...</div>
+                <div className='fetching'>Fetching Data...</div>
             ) : (
                 <button className='button' onClick={handleGetData}>Send it!</button>
             )}

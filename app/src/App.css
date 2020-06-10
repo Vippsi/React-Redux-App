@@ -1,5 +1,6 @@
 body{
   background-color: #95afc0;
+  font-family: 'Metal Mania', cursive;
 }
 
 .App {
@@ -43,16 +44,23 @@ body{
   margin-top: 1%;
   height: 35px;
   width: 200px;
+  font-family: 'Metal Mania', cursive;
+}
+
+.fetching{
+  font-size: 1.6rem;
 }
 
 .button {
   background-color:#95afc0;
-  color: white;
+  /* color: white; */
   border: 1px solid white;
   margin-left: .5%;
+  width: 100px;
   padding: .2%;
   font-size: 1.6rem;
   vertical-align: middle;
+  font-family: 'Metal Mania', cursive;
 }
 
 .dogDiv {
